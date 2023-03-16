@@ -1,6 +1,7 @@
 ﻿using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Interfaces;
 using AM.ApplicationCore.Services;
+using AM.Infrastructure;
 using System.Collections;
 using System.Collections.Generic;
 using static AM.ApplicationCore.Services.ServiceFlight;
@@ -41,9 +42,20 @@ Plane plane = new Plane();
 // ------------------------------------------------------------------------
 //TP2 
 //5
+ AMContext context = new AMContext();
+//context.Flights.Add(new Flight() {destination="touness",departure="sfax",
+  //  effectiveArrival= new DateTime(2021,2,1),
+   // estimatedDuration=60,flightDate=new DateTime(2024,1,5),plane=new Plane() {capacity=140  ,manufactureDate=new DateTime(2023,3,1),planeType=PlaneType.Airbus }
+//});
+//context.SaveChanges();
+foreach(var item in context.Flights.ToList())
+{
+    Console.WriteLine(item.flightId + " " + item.departure+" "+item.plane.capacity+" "+item.plane.manufactureDate);
+}
 
-ServiceFlight serviceFlight = new ServiceFlight();
-serviceFlight.Flights = TestData.flights;
+
+//ServiceFlight serviceFlight = new ServiceFlight();
+//serviceFlight.Flights = TestData.flights;
 
 /*
 serviceFlight.GetFlights("Paris",delegate(Flight f, String c)
@@ -58,7 +70,7 @@ serviceFlight.GetFlights("2023/01/01", (Flight f, String c) =>
 */
 
 // Question 20 En Passenger Extension
-Passenger p = new Staff();
-p = TestData.staff[1];
-p.UpperFullName();
-Console.WriteLine(p.firstName + " " + p.lastName);
+//Passenger p = new Staff();
+//p = TestData.staff[1];
+//p.UpperFullName();
+//Console.WriteLine(p.firstName + " " + p.lastName);

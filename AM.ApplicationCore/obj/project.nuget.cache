@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CEXfUxNEDyzXEUJIe7wr3JjTOlKMitlwI5xas9X8EMSwhXpIRJlZM/vvotmyfL7DJp1KFeglIheEi551kOYjdg==",
+  "dgSpecHash": "fyq0ssK0YGrpThAEiB1VH+yTqGfB5EUHC4lYWFAxNKICqVSDGbthCZAxTm/i7/+orZxgyGWF9zH2u57FMwWa/A==",
   "success": true,
-  "projectFilePath": "E:\\téléchargements\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\téléchargements\\.NET-Achref-Zitoun-main\\Eya Tizaoui\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EYA\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\téléchargements\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
+    "E:\\téléchargements\\.NET-Achref-Zitoun-main\\Eya Tizaoui\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
   },
   "projects": {
-    "E:\\téléchargements\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "E:\\téléchargements\\.NET-Achref-Zitoun-main\\Eya Tizaoui\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\téléchargements\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "E:\\téléchargements\\.NET-Achref-Zitoun-main\\Eya Tizaoui\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "E:\\téléchargements\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectPath": "E:\\téléchargements\\.NET-Achref-Zitoun-main\\Eya Tizaoui\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\EYA\\.nuget\\packages\\",
-        "outputPath": "E:\\téléchargements\\.NET-Achref-Zitoun-main\\ZitounAchref\\AM.ApplicationCore\\obj\\",
+        "outputPath": "E:\\téléchargements\\.NET-Achref-Zitoun-main\\Eya Tizaoui\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EYA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -32,3 +32,20 @@ E:\téléchargements\.NET-Achref-Zitoun-main\ZitounAchref\AM.Infrastructure\obj\
 E:\téléchargements\.NET-Achref-Zitoun-main\ZitounAchref\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.pdb
 E:\téléchargements\.NET-Achref-Zitoun-main\ZitounAchref\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.genruntimeconfig.cache
 E:\téléchargements\.NET-Achref-Zitoun-main\ZitounAchref\AM.Infrastructure\obj\Debug\net6.0\ref\AM.Infrastructure.dll
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\bin\Debug\net6.0\AM.Infrastructure.deps.json
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\bin\Debug\net6.0\AM.Infrastructure.runtimeconfig.json
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\bin\Debug\net6.0\AM.Infrastructure.dll
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\bin\Debug\net6.0\AM.Infrastructure.pdb
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\bin\Debug\net6.0\AM.ApplicationCore.dll
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\bin\Debug\net6.0\AM.ApplicationCore.pdb
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.csproj.AssemblyReference.cache
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.AssemblyInfoInputs.cache
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.AssemblyInfo.cs
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.csproj.CoreCompileInputs.cache
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.csproj.CopyComplete
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.dll
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\refint\AM.Infrastructure.dll
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.pdb
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\AM.Infrastructure.genruntimeconfig.cache
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.Infrastructure\obj\Debug\net6.0\ref\AM.Infrastructure.dll

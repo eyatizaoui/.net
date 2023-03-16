@@ -34,3 +34,15 @@ E:\téléchargements\.NET-Achref-Zitoun-main\ZitounAchref\AM.ApplicationCore\bin
 E:\téléchargements\.NET-Achref-Zitoun-main\ZitounAchref\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.dll
 E:\téléchargements\.NET-Achref-Zitoun-main\ZitounAchref\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.pdb
 E:\téléchargements\.NET-Achref-Zitoun-main\ZitounAchref\AM.ApplicationCore\obj\Debug\net6.0\ref\AM.ApplicationCore.dll
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.deps.json
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.dll
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\bin\Debug\net6.0\AM.ApplicationCore.pdb
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.csproj.AssemblyReference.cache
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.AssemblyInfoInputs.cache
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.AssemblyInfo.cs
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.csproj.CoreCompileInputs.cache
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.dll
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\obj\Debug\net6.0\refint\AM.ApplicationCore.dll
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\obj\Debug\net6.0\AM.ApplicationCore.pdb
+E:\téléchargements\.NET-Achref-Zitoun-main\Eya Tizaoui\AM.ApplicationCore\obj\Debug\net6.0\ref\AM.ApplicationCore.dll

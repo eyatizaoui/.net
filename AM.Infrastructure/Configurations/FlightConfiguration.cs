@@ -17,7 +17,7 @@ namespace AM.Infrastructure.Configurations
             builder.ToTable("MyFlight");
             builder.Property(j => j.departure).IsRequired().HasMaxLength(100).HasColumnName("ville de depart").HasDefaultValue("Tunis").HasColumnType("nchar");
             builder.HasOne(f => f.plane).WithMany(p => p.flights).HasForeignKey(f => f.PlaneFK).OnDelete(DeleteBehavior.SetNull);
-            builder.HasMany(f => f.passengers).WithMany(f => f.flights).UsingEntity(p => p.ToTable("My Resevation"));
+            //builder.HasMany(f => f.passengers).WithMany(f => f.flights).UsingEntity(p => p.ToTable("My Resevation"));
         }
     }
 }

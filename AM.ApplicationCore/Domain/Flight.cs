@@ -15,16 +15,17 @@ namespace AM.ApplicationCore.Domain
         public int flightId { get; set; }
         public DateTime effectiveArrival { get; set; } 
         public int estimatedDuration { get; set; } 
-        public List<Passenger> passengers { get; set; }
+       // public List<Passenger> passengers { get; set; }
+       public  virtual IList<Ticket> Ticket { get; set; }
 
-        public Plane ? plane { get; set; }   //prop Navigation foreign key t7outha fou9ha wala ta3ml kif haka
+        public virtual  Plane ? plane { get; set; }   //prop Navigation foreign key t7outha fou9ha wala ta3ml kif haka
         [ForeignKey(nameof(plane))]
         public  int ? PlaneFK { get; set; }
 
-        public override string ToString()
-        {
-            return destination + " " + departure + " " + flightDate + " " + effectiveArrival + " " + estimatedDuration 
-                + " " + passengers + " " + plane;
-        }
+        //public override string ToString()
+        //{
+        //    return destination + " " + departure + " " + flightDate + " " + effectiveArrival + " " + estimatedDuration 
+        //        + " " + passengers + " " + plane;
+        //}
     }
 }
