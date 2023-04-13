@@ -27,7 +27,7 @@ namespace AM.ApplicationCore.Domain
         [MaxLength(7)]
         public string passportNumber { get; set; }
        // public List<Flight> flights { get; set; }
-       public virtual List<Ticket> Ticket { get; set; }
+       public virtual List<ticket> Ticket { get; set; }
         public virtual  List <Reservation> Reservations  { get; set; }
         //public override string ToString()
         //{

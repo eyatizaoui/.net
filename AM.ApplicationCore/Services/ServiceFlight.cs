@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace AM.ApplicationCore.Services
 {
-    public class ServiceFlight 
+    public class ServiceFlight : Service<Flight>, IServiceFlight
     {
         public List<Flight> Flights { get; set; } = new List<Flight>(); // Création d'une liste 
 
         // 16 / 17 / 18 => ligne 42
-        public ServiceFlight() {
+        public ServiceFlight(IUnitOfWork uow):base(uow) {
             //FlightDetails = ShowFlightDetails;
             //DurationAverageDel = DurationAverage;
             FlightDetails = (Plane plane) =>
@@ -293,6 +293,29 @@ namespace AM.ApplicationCore.Services
             return f;
         }
 
+        int IServiceFlight.ProgrammedFlightNumber(DateTime startDate)
+        {
+            throw new NotImplementedException();
+        }
 
+        double IServiceFlight.DurationAverage(string destination)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<Flight> IServiceFlight.OrderedDurationFlights()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Traveller> SeniorTravellers(Flight flight)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IServiceFlight.DestinationGroupedFlights()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

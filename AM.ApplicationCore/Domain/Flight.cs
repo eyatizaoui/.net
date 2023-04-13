@@ -16,7 +16,7 @@ namespace AM.ApplicationCore.Domain
         public DateTime effectiveArrival { get; set; } 
         public int estimatedDuration { get; set; } 
        // public List<Passenger> passengers { get; set; }
-       public  virtual IList<Ticket> Ticket { get; set; }
+       public  virtual IList<ticket> Ticket { get; set; }
 
         public virtual  Plane ? plane { get; set; }   //prop Navigation foreign key t7outha fou9ha wala ta3ml kif haka
         [ForeignKey(nameof(plane))]

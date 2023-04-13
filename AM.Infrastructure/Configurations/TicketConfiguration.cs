@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace AM.Infrastructure.Configurations
 {
-    internal class TicketConfiguration : IEntityTypeConfiguration<Ticket>
+    internal class TicketConfiguration : IEntityTypeConfiguration<ticket>
     {
-        public void Configure(EntityTypeBuilder<Ticket> builder)
+        public void Configure(EntityTypeBuilder<ticket> builder)
         {
-            builder.HasKey(t => new { t.passengerFk, t.FlightFk });
-            builder.HasOne(p => p.passenger).WithMany(m =>m.Ticket).HasForeignKey(t => t.passengerFk);
-             builder.HasOne(p => p.flight).WithMany(m =>m.Ticket).HasForeignKey(t => t.FlightFk);
+            builder.HasKey(t => new { t.passengerfk, t.flightfk });
+            builder.HasOne(p => p.passenger).WithMany(m =>m.Ticket).HasForeignKey(t => t.passengerfk);
+             builder.HasOne(p => p.flight).WithMany(m =>m.Ticket).HasForeignKey(t => t.flightfk);
              
            
         }
